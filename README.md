@@ -1,9 +1,9 @@
 # Mars Climate Orbiter
 
-Design and analysis of different basic control schemes for the linearized model of the Mars Climate Orbiter [(MCO)](https://it.wikipedia.org/wiki/Mars_Climate_Orbiter).
+Design and analysis of different basic control schemes for the linearized model of the Mars Climate Orbiter [(MCO)](https://it.wikipedia.org/wiki/Mars_Climate_Orbiter)
 
 <p align="center">
-  <img src="Images/MCO.jpg">
+  <img src="MCO.jpg">
  </p>
 
 The control schemes implemented in "**MCO_control_scheme.slx**" are:
@@ -19,8 +19,8 @@ The control schemes implemented in "**MCO_control_scheme.slx**" are:
 - Simulink
 
 ## How to run it
-1. Run **MCO_library.m** MATLAB file to obtain all the necessary matrices
-2. Open **MCO_control_scheme.slx** Simulink scheme to simulate the behaviour of the MCO model with different types of controller
+1. Run the **MCO_library.m** MATLAB file to obtain all the required matrices for Simulink schemes
+2. Open the **MCO_control_scheme.slx** Simulink file to simulate/analyse/compare the performance of the different controller schemes
 
 
 ## Design of LQR-Based Controller
